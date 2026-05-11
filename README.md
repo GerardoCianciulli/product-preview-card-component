@@ -59,3 +59,4 @@ const Button = ({ icon: Icon }: ButtonProps) => {
 - Portfolio - [Gerardo Cianciulli](https://www.behance.net/gerardo-cianciulli)
 - Frontend Mentor - [Gerardo Cianciulli](https://www.frontendmentor.io/profile/GerardoCianciulli)
 - Linkedin - [Gerardo Cianciulli](https://www.linkedin.com/in/gerardo-cianciulli/)
+# product-preview-card-component
