@@ -141,6 +141,10 @@ button:hover {
 }
 
 @media (max-width: 632px) {
+  h1 {
+    font-size: 1.45rem;
+  }
+
   .product-preview-card {
     flex-direction: column;
     width: 350px;

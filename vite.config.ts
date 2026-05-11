@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/newbie-product-preview-card-component'
+  base: '/product-preview-card-component'
 })
