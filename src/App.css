@@ -1,17 +1,4 @@
-:root {
-  --ff-serif: 'Fraunces', serif;
-  --ff-sans-serif: 'Montserrat', sans-serif;
-
-  --fw-regular: 500;
-  --fw-bold: 700;
-
-  --green: hsl(158, 36%, 37%);
-  --dark-green: hsl(156, 59%, 25%);
-  --cream: hsl(30, 38%, 92%);
-  --dark-gray: hsl(228, 12%, 48%);
-  --white: hsl(0, 0%, 100%);
-  --black: hsl(0, 0%, 0%);
-}
+@import url("variables.css");
 
 *,
 *::before,
@@ -35,7 +22,7 @@ svg {
 body {
   font-family: var(--ff-sans-serif);
   font-weight: var(--fw-regular);
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: var(--dark-gray);
   justify-content: center;
   background-color: var(--cream);
@@ -80,7 +67,7 @@ h1 {
 
 .product-type {
   text-transform: uppercase;
-  font-size: .75rem;
+  font-size: 0.75rem;
   letter-spacing: 5px;
   line-height: 1.2em;
 }
@@ -115,7 +102,7 @@ h1 {
 
 .price {
   text-decoration: line-through;
-  font-size: .8125rem;
+  font-size: 0.8125rem;
 }
 
 button {
@@ -124,7 +111,7 @@ button {
   background-color: var(--green);
   color: var(--white);
   border-radius: 8px;
-  font-size: .875rem;
+  font-size: 0.875rem;
   display: flex;
   justify-content: center;
   align-items: center;
